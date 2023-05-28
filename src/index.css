@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.file-uploader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.file-uploader-box {
+  border: 1px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone {
+  /* 드롭존 스타일 */
+}
+
+.selected-files {
+  margin-top: 20px;
+}
